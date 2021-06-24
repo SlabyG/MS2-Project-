@@ -1,8 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-
-.carousel-inner {
+/*header-gallery slideshow*/
+.carousel-inner picture{
     height: auto;
 }
-.picture {
-    height: 800px;
+/*Section - About*/
+.info {
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.info h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.info p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Section-castles*/
+.container{
+  height: auto;
+  margin-bottom: 20px;
+}
+.row {
+  margin-bottom: 15px;
+}
+.row a{/*buttons*/
+  background-color: #f8f9fa;
+  color: black;
+  border-color: black;
+}
+.corv{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+}
+.bra{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 29px;
+}
+.pel{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 29px;
+}
+.box {
+  display: flex;
+  align-items:right;
+}
+.card-body {
+  margin-left: 10px;
 }

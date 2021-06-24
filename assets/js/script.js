@@ -1,22 +1,12 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("introPic");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+function initMap() {
+    const myLatLng = { lat: 45.750167579106616, lng: 22.88817136444397 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 2,
+      center: myLatLng,
+    });
+    new google.maps.Marker({
+      position: myLatLng,
+      map,
+      title: "Hello World!",
+    });
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
