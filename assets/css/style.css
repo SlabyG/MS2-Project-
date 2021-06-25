@@ -33,23 +33,23 @@
   color: black;
   border-color: black;
 }
-.corv{
+.corv{/*castles pictures style in dropdown buttons*/
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin-top: 15px;
+  margin-top: 32px;
 }
 .bra{
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin-top: 29px;
+  margin-top: 40px;
 }
 .pel{
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin-top: 29px;
+  margin-top: 40px;
 }
 .box {
   display: flex;
@@ -57,4 +57,22 @@
 }
 .card-body {
   margin-left: 10px;
+}
+.vor{/*monasteries pictures style in dropdown buttons*/
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 45px;
+}
+.suc{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 65px;
+}
+.put{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 54px
 }

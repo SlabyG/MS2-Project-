@@ -14,7 +14,7 @@
 </head>
 <body> <header> <!--Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand active" href="#">Discover Romania</a>
+      <a class="navbar-brand active" href="index.html">Discover Romania</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,13 +22,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Castles</a>
+            <a class="nav-link" href="#castles">Castles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Monisteries</a>
+            <a class="nav-link" href="#monasteries">Monasteries</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>
@@ -74,7 +74,7 @@
 </header>
 <section>
   <div class="container">
-    <div class="row">
+    <div id="about" class="row">
       <div class="info co-12">
         <h2>About</h2>
         <p> Welcome to Discover Romania! We are a local travel agent that provides one of the best tours from the country! We specialise in all types of tours and sizes. From the 
@@ -86,7 +86,18 @@
     </div>
   </div>
   <div class="container">
-    <h2>Discover the Masjestic Castles</h2>
+    <div id="castles" class="row">
+      <div class="info col-12">
+        <h2>
+          Discover the Masjestic Castles
+        </h2>
+        <p>Romania's collection of castles and fortresses perhaps best illustrates the rich medieval heritage of the country. While castles built from the 14th to the 18th centuries
+          are strong and austere fortresses built mainly for defense against invaders, those erected beginning in the late 1800s are imposing and luxurious. The most popular include
+          the 14th century Corvin Castle, built on the site of a former Roman camp, the elegant 19th century Peles Castle with its 160 rooms filled with priceless European art and, 
+          of course, the Bran Castle, built in the mid-1300s and legendary home to Bram Stoker's Count Dracula. 
+        </p>
+      </div>
+    </div>
     <div class="row col-6">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -108,7 +119,7 @@
 
     <div class="row col-6">
       <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
           Bran Castle
         </a>
       </p>
@@ -125,7 +136,7 @@
 
     <div class="row col-6">
         <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
             Peleș Castle
           </a>
         </p>
@@ -135,6 +146,71 @@
             <span>
               Peleș Castle  is a Neo-Renaissance castle in the Carpathian Mountains, near Sinaia, in Prahova County, Romania, on an existing medieval route linking Transylvania and
               Wallachia. It was constructed for King Carol I
+            </span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div id="monasteries" class="row">
+      <div class="info col-12">
+        <h2>Embark on a Spiritual Journey</h2>
+        <p>During the invasions of migratory populations (barbarians), people found their shelter in front of the invaders, behind the fortified walls of the Monasteries, in the 
+          forests or caves surrounding the hermitages inhabited by the hermit monks. In order to celebrate important victories in battles, the Wallachian or Moldavian voivodes raised 
+          monasteries. In this way, the famous medieval monastery chain from Moldova and Bucovina was born. These monasteries, today under protection of UNESCO heritage, are known to 
+          be the oldest and best preserved Orthodox monasteries still in use! 
+        </p>
+      </div>
+    </div>
+
+    <div class="row col-6">
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+          Voronet
+        </a>
+      </p>
+      <div class="collapse box" id="collapseExample3">
+        <img class="vor" src="assets/images/voronet.jpg" alt="Voronet Monastery"  >
+        <div class="card card-body ">
+          <span>
+            The Voroneț Monastery is a medieval monastery in the Romanian village of Voroneț, now a part of the town Gura Humorului. It is one of the famous painted monasteries
+            from southern Bukovina, in Suceava County
+          </span> 
+        </div>
+      </div>
+    </div>
+
+    <div class="row col-6">
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+          Sucevita
+        </a>
+      </p>
+      <div class="collapse box" id="collapseExample4">
+        <img class="suc" src="assets/images/suceviata.jpg" alt="Sucevita Monastery"  >
+        <div class="card card-body">
+          <span>
+            Sucevița Monastery is an Eastern Orthodox convent situated in the Northeastern part of Romania. It is situated near the Suceviţa River, in the village Sucevița, 
+            18 km away from the city of Rădăuţi, Suceava County. It is located in the southern part of the historical region of Bukovina.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row col-6">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+            Putna
+          </a>
+        </p>
+        <div class="collapse box" id="collapseExample5">
+          <img class="put" src="assets/images/putna.JPG" alt="Putna Monastery"  >
+          <div class="card card-body">
+            <span>
+              The Putna monastery is a Romanian Orthodox monastery, one of the most important cultural, religious and artistic centers established in medieval Moldavia,
+              as with many others, it was built and dedicated by Stephen the Great.
             </span>
           </div>
         </div>
