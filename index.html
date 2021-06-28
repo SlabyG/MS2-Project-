@@ -98,7 +98,7 @@
         </p>
       </div>
     </div>
-    <div class="row col-6">
+    <div id="cormap" class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Corvin Castle
@@ -106,16 +106,19 @@
       </p>
       <div class="collapse box" id="collapseExample">
         <img class="corv" src="assets/images/corvin.jpg" alt="Corvin Castle"  >
-        <div class="card card-body ">
+        <div class="card card-body col-md-6">
           <span>
           Castle, also known as Hunedoara Castle, is a Gothic-Renaissance castle in Hunedoara, Romania. It is one of the largest castles in Europe and figures in lists of
           the Seven Wonders of Romania
           </span> 
         </div>
+        <div id="cormap" class="col-md-6" style="height: 200px"><!--the code in this div was provided by my mentor Victor-->
+          <div id="map1"></div>
+        </div><!--the code in this div was provided by my mentor Victor-->
       </div>
     </div>
 
-    <div class="row col-6">
+    <div id="bramap" class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
           Bran Castle
@@ -123,16 +126,19 @@
       </p>
       <div class="collapse box" id="collapseExample1">
         <img class="bra" src="assets/images/bran.jpg" alt="Bran Castle"  >
-        <div class="card card-body">
+        <div class="card card-body col-md-6">
           <span>
             Bran Castle It is a national monument and landmark in Transylvania. The fortress is on the Transylvanian side of the historical border with Wallachia. Commonly known
             outside Transylvania as Dracula's Castle
           </span>
         </div>
+        <div id="bramap" class="col-md-6" style="height: 200px"><!--the code in this div was provided by my mentor Victor-->
+          <div id="map2"></div>
+        </div>
       </div>
     </div>
 
-    <div class="row col-6">
+    <div id="pelmap" class="row">
         <p>
           <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
             Peleș Castle
@@ -145,6 +151,9 @@
               Peleș Castle  is a Neo-Renaissance castle in the Carpathian Mountains, near Sinaia, in Prahova County, Romania, on an existing medieval route linking Transylvania and
               Wallachia. It was constructed for King Carol I
             </span>
+          </div>
+          <div id="pelmap" class="col-md-6" style="height: 200px"><!--the code in this div was provided by my mentor Victor-->
+            <div id="map3"></div>
           </div>
         </div>
     </div>
@@ -180,7 +189,7 @@
       </div>
     </div>
 
-    <div class="row col-6">
+    <div class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
           Sucevita
@@ -197,7 +206,7 @@
       </div>
     </div>
 
-    <div class="row col-6">
+    <div id="putmap" class="row">
         <p>
           <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
             Putna
@@ -205,7 +214,7 @@
         </p>
         <div class="collapse box" id="collapseExample5">
           <img class="put" src="assets/images/putna.JPG" alt="Putna Monastery"  >
-          <div class="card card-body">
+          <div class="card card-body col-md-6">
             <span>
               The Putna monastery is a Romanian Orthodox monastery, one of the most important cultural, religious and artistic centers established in medieval Moldavia,
               as with many others, it was built and dedicated by Stephen the Great.
@@ -213,6 +222,8 @@
           </div>
         </div>
     </div>
+    
+    
   </div>
 </section><!--all codes used in this section are from bootstrap and are adjusted & modified-->
 <footer></footer>
@@ -222,6 +233,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp4o9bmki16t7781Cx7brLDKYhtHvs19U&callback=initMaps&libraries=&v=weekly"async></script>
+
 
 </body>
 </html>

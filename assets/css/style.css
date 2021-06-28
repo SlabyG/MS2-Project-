@@ -76,3 +76,25 @@
   width: 100px;
   margin-top: 34px
 }
+
+#map1 {/* map*/
+  height: 100%;
+}
+
+#map2 {
+  height: 100%;
+}
+
+#map3 {
+  height: 100%;
+}
+​
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#cormap {
+  display: inline-block;
+}
