@@ -1,7 +1,7 @@
 
 
 /*  Castle*/
-function initMap() {
+function initMaps() {
    // first map
    const myLatLng1 = { lat: 45.749457311570545, lng: 22.888329538529746 };
    const map1 = new google.maps.Map(document.getElementById("map1"), {
