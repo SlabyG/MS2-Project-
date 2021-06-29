@@ -1,6 +1,6 @@
 
 
-/*  Castle*/
+//  Castle maps
 function initMaps() {
    // first map
    const myLatLng1 = { lat: 45.749457311570545, lng: 22.888329538529746 };
@@ -37,4 +37,40 @@ function initMaps() {
     map3,
     title: "Peles Castle",
   });
+
+  // Monasteries mpas
+  // fourth map
+  const myLatLng4 = { lat: 47.517067790762184, lng: 25.864164550461542 };
+   const map4 = new google.maps.Map(document.getElementById("map4"), {
+    zoom: 17,
+    center: myLatLng4,
+  })
+  new google.maps.Marker({
+    position: myLatLng4,
+    map4,
+    title: "Voronet Monastery",
+  }); 
+  //fifth map
+  const myLatLng5 = { lat: 47.77817357357038, lng: 25.711288128818378 };
+   const map5 = new google.maps.Map(document.getElementById("map5"), {
+    zoom: 17,
+    center: myLatLng5,
+  })
+  new google.maps.Marker({
+    position: myLatLng5,
+    map5,
+    title: "Sucevita Monastery",
+  }); 
+  //sixth map
+  const myLatLng6 = { lat: 47.86608037279424, lng: 25.59649878444354 };
+   const map6 = new google.maps.Map(document.getElementById("map6"), {
+    zoom: 17,
+    center: myLatLng6,
+  })
+  new google.maps.Marker({
+    position: myLatLng6,
+    map6,
+    title: "Putna Monastery",
+  }); 
+
 }
