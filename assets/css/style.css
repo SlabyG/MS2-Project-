@@ -106,3 +106,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/*footer section*/
+.social{
+  background-color: #f8f9fa;
+  height: auto;
+  text-align: center;
+}
+.media{
+  text-align: center;
+}
+.socialnetworks{
+  display: inline-block;
+  text-decoration:none;
+  text-align: center;
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+}
