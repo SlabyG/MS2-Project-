@@ -58,6 +58,26 @@
 .card-body {
   margin-left: 10px;
 }
+
+@media all and (max-width: 576px) {
+  .box { 
+      display: block; 
+  }
+  .card-body{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+  .cor, .br, .pe, .vo, .su, .pu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .btn-primary {
+    margin-left: 20px;
+  }
+}
+  
 .vor{/*monasteries pictures style in dropdown buttons*/
   border-radius: 50%;
   height: 100px;
