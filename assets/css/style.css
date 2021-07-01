@@ -111,16 +111,15 @@ body {
 .social{
   background-color: #f8f9fa;
   height: auto;
-  text-align: center;
 }
 .media{
-  text-align: center;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
 }
-.socialnetworks{
-  display: inline-block;
-  text-decoration:none;
-  text-align: center;
-  margin-right: 20px;
-  height: 30px;
-  width: 30px;
+.fab{
+  font-size: xxx-large;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-right: 10px;
 }
