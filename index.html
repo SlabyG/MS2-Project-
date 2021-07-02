@@ -254,7 +254,13 @@
 
     <div class="container">
       <div class="row">
-
+        <form onsubmit="return sendMail(this);" method="POST">
+         <input id="fname" type="text" placeholder="First Name" required/>
+         <input id="lname" type="text" placeholder="Last Name" required/>
+         <input id="tname" type="text" placeholder="Tour Name" required/>
+         <input id="lname" type="email" placeholder="Email" required/>
+         <input id="tname" type="text" placeholder="Additional Info" required/>
+        </form>
       </div>
     </div>
     
@@ -291,6 +297,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp4o9bmki16t7781Cx7brLDKYhtHvs19U&callback=initMaps&libraries=&v=weekly"async></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 
 </body>
