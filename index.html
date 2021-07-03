@@ -257,13 +257,15 @@
       <div class="info col-12">
         <h2 class="tour">Book Your Tour</h2>
       </div>
-      <form onsubmit="return sendMail(this);" method="POST">
-       <input id="fname" type="text" placeholder="First Name" required/>
-       <input id="lname" type="text" placeholder="Last Name" required/>
-       <input id="tname" type="text" placeholder="Tour Name" required/>
-       <input id="lname" type="email" placeholder="Email" required/>
-       <input id="addinfo" type="text" placeholder="Additional Info" required/>
-      </form>
+      <div class="bord">
+        <form onsubmit="return sendMail(this);" method="POST" class="for" >
+          <input id="fname" class="fill" type="text" placeholder="First Name" required/>
+          <input id="lname" class="fill" type="text" placeholder="Last Name" required/>
+          <input id="tname" class="fill" type="text" placeholder="Tour Name" required/>
+          <input id="lname" class="fill" type="email" placeholder="Email" required/>
+          <input id="addinfo" class="fill extra" type="text" placeholder="Additional Info" required/>
+         </form>
+      </div>
     </div>
   </div>
 

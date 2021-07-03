@@ -76,6 +76,24 @@
   .btn-primary {
     margin-left: 20px;
   }
+  /*form section*/
+  .fill {
+    display: block; 
+    margin-bottom: 5px;
+    margin-left: 20px;
+    
+    text-align: center;
+  }
+  .bord {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .extra {
+    height: 60px;
+    width: auto;
+  }
+
+
 }
   
 .vor{/*monasteries pictures style in dropdown buttons*/
@@ -109,6 +127,30 @@ body {
 /*form section*/
 .tour{
   text-align: center;
+}
+input{
+  width: 33%;
+}
+.extra {
+  height: 60px;
+  width: 71%;
+}
+.for {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.bord{
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.fill {
+  margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 
