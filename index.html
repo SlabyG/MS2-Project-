@@ -258,13 +258,13 @@
         <h2 class="tour">Book Your Tour</h2>
       </div>
       <div id="foorr" class="bord">
-        <form onsubmit="return sendMail(this);" method="POST" class="for" >
-          <input id="fname" class="fill" type="text" placeholder="First Name" name="fist_name" required/>
+        <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form" >
+          <input id="fname" class="fill" type="text" placeholder="First Name" name="first_name" required/>
           <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
           <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>
-          <input id="ename" class="fill" type="email" placeholder="Email" name="email_add" required/>
+          <input id="ename" class="fill" type="email" placeholder="Email" name="email" required/>
           <input id="addinfo" class="fill extra" type="text" name="additional_info" placeholder="Additional Info" required/>
-          <input type="submit" >
+          <input type="submit" id="button" >
          </form>
       </div>
     </div>
