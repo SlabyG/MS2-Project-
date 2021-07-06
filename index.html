@@ -16,7 +16,7 @@
     <script type="text/javascript">
      (function(){
       emailjs.init("user_BdmETQmiHqC8H4wCzgNPD");
-      emailjs.send("service_dh9xkvf","slabyg");
+      emailjs.send("Slabyg","slabyg");
       })();
     </script>
 </head>
@@ -39,7 +39,7 @@
             <a class="nav-link" href="#monasteries">Monasteries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Book Your Tour</a>
+            <a class="nav-link" href="#foorr">Book Your Tour</a>
           </li>
       </div>
     </nav> <!--End Navigation--><!--Used bootstrap for all the navigation bar and adjusted after the project needs-->
@@ -259,15 +259,13 @@
       </div>
       <div id="foorr" class="bord">
         <form onsubmit="return sendMail(this);" method="POST" class="for" >
-          <input id="fname" class="fill" type="text" placeholder="First Name" required/>
-          <input id="lname" class="fill" type="text" placeholder="Last Name" required/>
-          <input id="tname" class="fill" type="text" placeholder="Tour Name" required/>
-          <input id="ename" class="fill" type="email" placeholder="Email" required/>
-          <input id="addinfo" class="fill extra" type="text" placeholder="Additional Info" required/>
+          <input id="fname" class="fill" type="text" placeholder="First Name" name="fist_name" required/>
+          <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
+          <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>
+          <input id="ename" class="fill" type="email" placeholder="Email" name="email_add" required/>
+          <input id="addinfo" class="fill extra" type="text" name="additional_info" placeholder="Additional Info" required/>
+          <input type="submit" >
          </form>
-         <div class="but">
-           <button type="submit" class="btn btn-primary">Book Now</button>
-         </div>
       </div>
     </div>
   </div>

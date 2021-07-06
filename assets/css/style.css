@@ -32,6 +32,7 @@
   background-color: #f8f9fa;
   color: black;
   border-color: black;
+  width: 170px;
 }
 .corv{/*castles pictures style in dropdown buttons*/
   border-radius: 50%;
@@ -130,9 +131,7 @@ body {
   padding: 0;
 }
 /*form section*/
-.tour{
-  text-align: center;
-}
+
 input{
   width: 33%;
 }
