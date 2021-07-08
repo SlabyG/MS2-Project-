@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="images/png" href="assets/favicon.ico">
     <title>Holiday</title>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
@@ -258,7 +259,7 @@
         <h2 class="tour">Book Your Tour</h2>
       </div>
       <div id="foorr" class="bord">
-        <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form" >
+        <form onsubmit="return sendMail(this);" method="GET" class="for" id="contact-form" >
           <input id="fname" class="fill" type="text" placeholder="First Name" name="first_name" required/>
           <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
           <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>
