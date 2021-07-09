@@ -23,7 +23,7 @@ document.getElementById('contact-form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   const serviceID = 'Slabyg';
+   const serviceID = 'default_service';
    const templateID = 'slabyg';
 
    emailjs.sendForm(serviceID, templateID, this)
