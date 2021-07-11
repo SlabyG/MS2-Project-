@@ -19,7 +19,8 @@
       })();
     </script>
 </head>
-<body> <header> <!--Navigation--><!--Used bootstrap for all the navigation bar and adjusted after the project needs-->
+<body> 
+  <header> <!--Navigation--><!--Used bootstrap for all the navigation bar and adjusted after the project needs-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand active" href="index.html">Discover Romania</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -258,7 +259,16 @@
         <h2 class="tour">Book Your Tour</h2>
       </div>
       <div id="foorr" class="bord">
-        <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form">
+        <!-- <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form">
+          <input id="fname" class="fill" type="text" placeholder="First Name" name="first_name" required/>
+          <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
+          <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>
+          <input id="ename" class="fill" type="email" placeholder="Email" name="email" required/>
+          <input id="addinfo" class="fill extra" type="text" name="additional_info" placeholder="Additional Info"/>
+          <input type="submit" id="button"/>
+         </form>
+      </div> -->
+        <form class="for" id="contact-form"> <!--the codes in this form have been added by Tutor Sean and commented the original one from above in a atempt of fixing the form-->
           <input id="fname" class="fill" type="text" placeholder="First Name" name="first_name" required/>
           <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
           <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>

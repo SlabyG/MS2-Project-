@@ -7,7 +7,7 @@ function initMaps() {
    const map1 = new google.maps.Map(document.getElementById("map1"), {
     zoom: 17,
     center: myLatLng1,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng1,
     map1,
@@ -19,7 +19,7 @@ function initMaps() {
    const map2 = new google.maps.Map(document.getElementById("map2"), {
     zoom: 17,
     center: myLatLng2,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng2,
     map2,
@@ -31,7 +31,7 @@ function initMaps() {
    const map3 = new google.maps.Map(document.getElementById("map3"), {
     zoom: 17,
     center: myLatLng3,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng3,
     map3,
@@ -44,7 +44,7 @@ function initMaps() {
    const map4 = new google.maps.Map(document.getElementById("map4"), {
     zoom: 17,
     center: myLatLng4,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng4,
     map4,
@@ -55,7 +55,7 @@ function initMaps() {
    const map5 = new google.maps.Map(document.getElementById("map5"), {
     zoom: 17,
     center: myLatLng5,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng5,
     map5,
@@ -66,7 +66,7 @@ function initMaps() {
    const map6 = new google.maps.Map(document.getElementById("map6"), {
     zoom: 17,
     center: myLatLng6,
-  })
+  });
   new google.maps.Marker({
     position: myLatLng6,
     map6,

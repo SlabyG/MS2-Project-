@@ -3,6 +3,9 @@
 .active{
   font-family: Leckerli One;
 }
+#navbarSupportedContent {
+  font-family: Roboto;
+}
 
 /*header-gallery slideshow*/
 .carousel-inner picture{
@@ -18,6 +21,7 @@
 .info h2{
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: Roboto;
 }
 
 .info p {
@@ -32,6 +36,7 @@
 }
 .row {
   margin-bottom: 15px;
+  font-family: Roboto;
 }
 .row a{/*buttons*/
   background-color: #f8f9fa;
