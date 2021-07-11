@@ -1,5 +1,6 @@
 ## Introduction 
 ![Website](assets/images/mock-up.PNG)
+![Pc](assets/images/wframesitemap.PNG)
 Discover Romania is travel agent website that can book your favorite tour. Its purpose is to convince visitors to book tours directly throught the website and allow a 
 nice and smooth navigation through the website and a natural flow of information.
 
@@ -57,8 +58,16 @@ The Structure of the website is a sigle page diveded in multiple sections such a
          - footer color #f8f9fa
          - fontawsome icons used font-size xxlarge and background color black  
 
-#### Skeleton 
-
+#### Skeleton - Wireframes 
+Mobile - ![Mobile](assets/images/wframemob.PNG)
+       - ![Mobile](assets/images/wframemob1.PNG)
+       - ![Mobile](assets/images/wframemob2.PNG)
+Tablet - ![Tab](assets/images/wframetab.PNG)
+       - ![Tab](assets/images/wframetab.PNG)
+PC     - ![Pc](assets/images/wframesitemap.PNG)
+       - ![Pc](assets/images/wframehomepc.PNG)
+       - ![Pc](assets/images/wframecastlepc.PNG)
+       - ![Pc](assets/images/wframemonisterypc.PNG)
 
 
 
