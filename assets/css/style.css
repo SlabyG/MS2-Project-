@@ -57,9 +57,9 @@
   width: 100px;
   margin-top: 40px;
 }
-.box {
+.box { /* this css code was taken from stack overflow and used in order to aling both the text(div) and map hence the error in the validator */
   display: flex;
-  align-items:right;
+  align-items: right;
 }
 .card-body {
   margin-left: 10px;
@@ -179,7 +179,7 @@ input{
   list-style-type: none;
 }
 .fab{
-  font-size: xxx-large;
+  font-size: xx-large;
   margin-top: 20px;
   margin-bottom: 4px;
   margin-right: 10px;

@@ -11,10 +11,8 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
     <link rel="icon" type="images/png" href="assets/favicon.ico">
     <title>Holiday</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
      (function(){
       emailjs.init("user_BdmETQmiHqC8H4wCzgNPD");
       emailjs.send("Slabyg","slabyg");
@@ -42,6 +40,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#foorr">Book Your Tour</a>
           </li>
+        </ul>
       </div>
     </nav> <!--End Navigation--><!--Used bootstrap for all the navigation bar and adjusted after the project needs-->
     <div class="bd-example"><!--Used bootstrap for slidesshow pictures-->
@@ -107,7 +106,7 @@
         </p>
       </div>
     </div>
-    <div id="cormap" class="row">
+    <div class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Corvin Castle
@@ -129,7 +128,7 @@
       </div>
     </div>
 
-    <div id="bramap" class="row">
+    <div class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
           Bran Castle
@@ -151,7 +150,7 @@
       </div>
     </div>
 
-    <div id="pelmap" class="row">
+    <div class="row">
         <p>
           <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
             Peleș Castle
@@ -187,7 +186,7 @@
       </div>
     </div>
 
-    <div id="vormap" class="row">
+    <div class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
           Voronet Monastery
@@ -209,7 +208,7 @@
       </div>
     </div>
 
-    <div id="sucmap" class="row">
+    <div class="row">
       <p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
           Sucevita Monastery
@@ -231,7 +230,7 @@
       </div>
     </div>
 
-    <div id="putmap" class="row">
+    <div class="row">
         <p>
           <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
             Putna Monastery
@@ -259,7 +258,7 @@
         <h2 class="tour">Book Your Tour</h2>
       </div>
       <div id="foorr" class="bord">
-        <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form" element.value = "" >
+        <form onsubmit="return sendMail(this);" method="POST" class="for" id="contact-form">
           <input id="fname" class="fill" type="text" placeholder="First Name" name="first_name" required/>
           <input id="lname" class="fill" type="text" placeholder="Last Name" name="last_name" required/>
           <input id="tname" class="fill" type="text" placeholder="Tour Name" name="tour_name" required/>
@@ -301,7 +300,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp4o9bmki16t7781Cx7brLDKYhtHvs19U&callback=initMaps&libraries=&v=weekly"async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp4o9bmki16t7781Cx7brLDKYhtHvs19U&callback=initMaps&libraries=&v=weekly" async></script>
     <script src="assets/js/sendEmail.js"></script>
 
 
