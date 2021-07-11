@@ -1,5 +1,6 @@
 function sendMail(contactForm){
-  emailjs.sendMail("gmail","slabyg", {
+  document.getElementById('contact-form').reset()
+  emailjs.send("Slabyg","slabyg", {
       "last_name": contactForm.last_name.value,
       "first_name": contactForm.first_name.value,
       "tour_name": contactForm.tour_name.value,
@@ -23,13 +24,10 @@ document.getElementById('contact-form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   const serviceID = 'default_service';
+   const serviceID = 'Slabyg';
    const templateID = 'slabyg';
+   const userID = 'this';
 
    emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      alert('Sent!');
-    }, (err) => {
-      alert(JSON.stringify(err));
-    });
+    
 });
