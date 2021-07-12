@@ -1,13 +1,19 @@
 ## Introduction 
 ![Website](assets/images/mock-up.PNG)
 
-Discover Romania is travel agent website that can book your favorite tour. Its purpose is to convince visitors to book tours directly throught the website and allow a 
-nice and smooth navigation through the website and a natural flow of information.
 
 ## UX
 
-#### User Stories
-As a user i want to:
+#### Strategy - Project Goal
+
+Discover Romania is travel agent website that can book your favorite tour. Its purpose is to promote National Heritage and to convince visitors to book tours directly throught the website and allow a nice and smooth navigation through the website and a natural flow of information.
+
+#### Scope - Members Goal 
+
+Is to be able to find the necesary information about the services provided and also to be able to navigate the website easely.
+
+
+#### Members Goal:
 
 * be able to navigate the website 
 * easy to understand where i am on the website 
@@ -23,17 +29,28 @@ As a user i want to:
 * simple and easy to visualise 
 * obtain guest details 
 
-#### Returned customer
-* have more tours to chose from  
-* different types of tours ie, fun,religious,sports,sea, montain
-* option to book with date to enter the date details 
-* age friendly 
+### User Stories
+
+#### As a customer visiting the website I would like to:
+
+* easy acces to the information 
+* understand how to navigate 
+* visualy pleasing 
+* details and pricing list 
 
 #### As a developer my goals are to:
+
 * Create a modern and easy to navigate webpage
 * Easy to understand the webpage
 * Provide the customers with relevant information
 * Ensure that website is suitable for all users including impared user
+
+#### Returned customer
+
+* have more tours to chose from  
+* different types of tours ie, fun,religious,sports,sea, montain
+* option to book with date to enter the date details 
+* age friendly 
 
 #### Structure
 The Structure of the website is a sigle page diveded in multiple sections such as:
@@ -172,14 +189,27 @@ Putna - https://commons.wikimedia.org/wiki/File:%22M%C4%83n%C4%83stirea_Putna%22
 3. Code 
 
 Navigation - bar used bootstrap ad adjusted the navigation 
+
 Slideshow - used bootstrap to display the slidehow (initialy i wanted to minimise the height of the slideshow however that was cutting the picture and wasnt loking nice at at so i left it at its original size. did atempt to change it no success yet)
+
 Dropdown - used bootstrap for dorpdown buttons on the main page under section Castles & Monasteries
+
 CSS - class="box" was taken from stock overflow and used in order to aling both the text(div) and map hence the error in the validator link from stock overflow was lost by mistake
+
 Forms - Tutor Sean from Code Institute commented the original Forms added by myself and added new ones similar as my
+
 sendEmail.js -  Tutor Sean from Code Institute commented the original codes and added his own codes. Original codes are commented out
 
 4. Acknowledge
 
 Eventyret_mentor from CI was very helpfull giving advise and tips through the slack channel
+
 Sean from Tutor Support CI very patient and has the skill to teach others and make them understand things like java script
+
 Anthony O' Brien very helpfull providing me with examples and explanations on slack 
+
+Jo from Tutor Support CI was very helpfull giving advise 
+
+CI for use of tutor support line 
+
+My mentor Victor for helping out with ideas and sugestions 
