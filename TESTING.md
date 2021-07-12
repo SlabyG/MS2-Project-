@@ -1,7 +1,14 @@
 ## testing 
 
+Lighthouse test - scored 76% on performance mainly becouse of the API used in script.js [LINK](assets/images/Lighthouse.PNG)
 
+One worning Permissions-Poloicy - due to locking the API [LINK](assets/images/Lighthouse1.PNG)
 
+12 Verbose/Bugs - Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. [LINK](assets/images/Lighthouse2.PNG)
+
+Internet Explorer - website is responsive on other browser [LINK](assets/images/internetepl.PNG)
+
+Microsoft Edge - website is responsive on other browser also scored a [LINK](assets/images/microsoft.PNG)
 
 
 

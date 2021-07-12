@@ -147,6 +147,7 @@ PC:
 * Used GOOGLE for fonts and API 
 * Used Fontawsome for icons https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
 * Used Balsamiq for wireframes
+* Used Youtube for general knowladge
 
 ## Deployment
 
