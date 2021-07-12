@@ -59,17 +59,28 @@ The Structure of the website is a sigle page diveded in multiple sections such a
          - fontawsome icons used font-size xxlarge and background color black  
 
 #### Skeleton - Wireframes 
-Mobile - ![Mobile](assets/images/wframemob.PNG)
-       - ![Mobile](assets/images/wframemob1.PNG)
-       - ![Mobile](assets/images/wframemob2.PNG)
+Mobile 
+![Mobile](assets/images/wframemob.PNG)
        
-Tablet - ![Tab](assets/images/wframetab.PNG)
-       - ![Tab](assets/images/wframetab.PNG)
+![Mobile](assets/images/wframemob1.PNG)
 
-PC     - ![Pc](assets/images/wframesitemap.PNG)
-       - ![Pc](assets/images/wframehomepc.PNG)
-       - ![Pc](assets/images/wframecastlepc.PNG)
-       - ![Pc](assets/images/wframemonisterypc.PNG)
+![Mobile](assets/images/wframemob2.PNG)
+       
+Tablet 
+
+![Tab](assets/images/wframetab.PNG)
+
+![Tab](assets/images/wframetab.PNG)
+
+PC     
+
+![Pc](assets/images/wframesitemap.PNG)
+       
+![Pc](assets/images/wframehomepc.PNG)
+       
+![Pc](assets/images/wframecastlepc.PNG)
+       
+![Pc](assets/images/wframemonisterypc.PNG)
 
 ## Technology Used 
 * Used Bootstrap v4.3- https://getbootstrap.com/docs/4.3/getting-started/introduction/
