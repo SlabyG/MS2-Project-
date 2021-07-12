@@ -1,5 +1,5 @@
 //the codes from line 3 to 24 have been added by Tutor Sean from CI in a atempt of fixing the form issue
-// My actual codes were commented-out. the actual codes were working fine to up to the commit were i comented the forms are working fine, after that commit forms stop workin
+// My actual codes were commented-out. the actual codes were working fine to up to the commit were i comented the forms are working fine, after that commit forms stop working
 const form = document.getElementById('contact-form');
 const btn = document.getElementById('button');
 
