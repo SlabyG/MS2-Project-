@@ -108,11 +108,15 @@ Tablet:
 
 ![Tab](assets/images/wframetab.PNG)
 
+
 PC:     
+
 
 ![Pc](assets/images/wframesitemap.PNG)
        
 ![Pc](assets/images/wframehomepc.PNG)
+
+When clicked on the bellow dropdown buttons in the Castle section visitors will be presented with relevant tours options and tours locations  
        
 ![Pc](assets/images/wframecastlepc.PNG)
        
@@ -150,6 +154,9 @@ PC:
 * Used Youtube for general knowladge https://www.youtube.com/
 
 ## Deployment
+
+Deployment is done via github page. in order to deploy de website, you need to make the Repository public first and then to deploy the link. 
+Fallow the step by step ilustrated bellow. 
 
 #### Setting the Repository from Private to Public 
 * Log in to GitHub

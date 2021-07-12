@@ -10,6 +10,7 @@ Internet Explorer - website is responsive on other browser [LINK](assets/images/
 
 Microsoft Edge - website is responsive on other browser also scored a [LINK](assets/images/microsoft.PNG)
 
+Form & sendEmail.js - both forms and email.js are working fine [LINK](assets/images/test.PNG)
 
 
 
