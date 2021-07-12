@@ -92,7 +92,7 @@ The Structure of the website is a sigle page diveded in multiple sections such a
 
 The webpage is made out of four main categories Aout, Castles, Monasteries and Book Your Tour. Bellow it will be displayed the frams for three different types of screen sizes.
 
-![Pc](assets/images/wframesitemap.PNG)
+![Site Map](assets/images/wframesitemap.PNG)
 
 Mobile: 
 
@@ -147,7 +147,7 @@ PC:
 * Used GOOGLE for fonts and API 
 * Used Fontawsome for icons https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
 * Used Balsamiq for wireframes
-* Used Youtube for general knowladge
+* Used Youtube for general knowladge https://www.youtube.com/
 
 ## Deployment
 
