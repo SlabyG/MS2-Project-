@@ -92,7 +92,7 @@ The Structure of the website is a sigle page diveded in multiple sections such a
 
 The webpage is made out of four main categories Aout, Castles, Monasteries and Book Your Tour. Bellow it will be displayed the frams for three different types of screen sizes.
 
-![Site Map](assets/images/wframesitemap.PNG)
+![Site Map](assets/images/sitemap.PNG)
 
 Mobile: 
 
