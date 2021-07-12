@@ -1,4 +1,6 @@
-## testing 
+## Testing 
+
+**The bellow testing is done from google on different screen sizes but also done directly from the a Samsung to check the compatibility and functionality**
 
 Lighthouse test - scored 76% on performance mainly becouse of the API used in script.js [LINK](assets/images/Lighthouse.PNG)
 
@@ -12,6 +14,9 @@ Microsoft Edge - website is responsive on other browser also scored a [LINK](ass
 
 Form & sendEmail.js - both forms and email.js are working fine [LINK](assets/images/test.PNG)
 
+Api Error - Api was locked and the actual link was not allowed to access the api. i re-edited the API and gived permision to the website to access [LINK](assets/images/error.PNG)
+
+Samsung A50 test -  The actual website was tested from a samsung phone and it does work just fine. If you wish you can actualy send me emails via the website [LINK](assets/images/SAMSUNG.PNG)
 
 
 **Validator** | **Errors**
