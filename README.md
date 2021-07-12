@@ -25,7 +25,7 @@ As a user i want to:
 
 #### Returned customer
 * have more tours to chose from  
-*  different types of tours ie, fun,religious,sports,sea, montain
+* different types of tours ie, fun,religious,sports,sea, montain
 * option to book with date to enter the date details 
 * age friendly 
 
@@ -47,32 +47,50 @@ The Structure of the website is a sigle page diveded in multiple sections such a
  Both the navigaton and the footer have same colour (#f8f9fa), decided to keep it plain and simple with a white background.
 
  Favicon logo uses the initials of DR from (Discover Romania).Used a size of 32x32 with black writing with a font-family Leckerli One of and #f8f9fa colour to blend in with the website design 
+
  Google Fonts - Home button uses font-family Leckerli One while the other buttons and content uses the Roboto font-family.
+
  Icons - Used fontawsome to cater for the footer and add the social media icons
- Colours - Main home navigation button - black
-         - navigation buttons #767676
-         - background color - white
-         - text - black
-         - form - #767676
-         - submit button background #f8f9fa 
-         - footer color #f8f9fa
-         - fontawsome icons used font-size xxlarge and background color black  
+
+ Colours 
+
+ - Main home navigation button - black
+       
+ - navigation buttons #767676
+       
+ - background color - white
+ 
+ - text - black
+ 
+ - form - #767676
+ 
+ - submit button background #f8f9fa 
+ 
+ - footer color #f8f9fa
+
+ - fontawsome icons used font-size xxlarge and background color black  
 
 #### Skeleton - Wireframes 
-Mobile 
+
+The webpage is made out of four main categories Aout, Castles, Monasteries and Book Your Tour. Bellow it will be displayed the frams for three different types of screen sizes.
+
+![Pc](assets/images/wframesitemap.PNG)
+
+Mobile: 
+
 ![Mobile](assets/images/wframemob.PNG)
        
 ![Mobile](assets/images/wframemob1.PNG)
 
 ![Mobile](assets/images/wframemob2.PNG)
        
-Tablet 
+Tablet: 
 
 ![Tab](assets/images/wframetab.PNG)
 
 ![Tab](assets/images/wframetab.PNG)
 
-PC     
+PC:     
 
 ![Pc](assets/images/wframesitemap.PNG)
        
@@ -81,6 +99,22 @@ PC
 ![Pc](assets/images/wframecastlepc.PNG)
        
 ![Pc](assets/images/wframemonisterypc.PNG)
+
+## Features 
+
+1. Existing features
+
+* Navigation Bar suported on all types of electronic devices 
+* Dropdown buttons that extend the lenght of the webpage and display images and google maps via API 
+* Forms that are fully functionable and send emails to the adim via sendEmail.js
+
+2. Features can be Implemented / Improved
+
+* Add more and a bigger sellection range of tours 
+* Implement more inputs to the form such as date, phone number and more options
+* Implement better visual design 
+* Add a dropdown button in the form with a selection of tours rother than to enter tour name 
+
 
 ## Technology Used 
 * Used Bootstrap v4.3- https://getbootstrap.com/docs/4.3/getting-started/introduction/
