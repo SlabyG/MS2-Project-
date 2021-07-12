@@ -61,6 +61,7 @@ The Structure of the website is a sigle page diveded in multiple sections such a
 * Book Your Tour which contains a form were when filld sends the website admi an email with the details.
 
 #### Design Coice
+
  Both the navigaton and the footer have same colour (#f8f9fa), decided to keep it plain and simple with a white background.
 
  Favicon logo uses the initials of DR from (Discover Romania).Used a size of 32x32 with black writing with a font-family Leckerli One of and #f8f9fa colour to blend in with the website design 
@@ -148,6 +149,24 @@ PC:
 * Used Balsamiq for wireframes
 
 ## Deployment
+
+#### Setting the Repository from Private to Public 
+* Log in to GitHub
+* Click Repositories
+* Sellect correct Repository (MS2-Project-)
+* Click - Sttings 
+* Scroll to the bottom page 
+* Click on make page Public
+* Type in the requierment and Save
+
+#### Setting the Repository from None to Master 
+* Log in to GitHub
+* Click Repositories
+* Sellect correct Repository (MS2-Project-)
+* Click - Sttings 
+* Go to and click on Page on bottom left side 
+* Sellect the source from None to Master and then save 
+* After you save you will be provided with a link ( https://slabyg.github.io/MS2-Project-/ )
 
 
 ## Credits
